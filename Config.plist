@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Keycodes</key>
+	<dict>
+		<key>Keyboard</key>
+		<dict>
+			<key>#comment</key>
+			<string>Connus : F1-15 ; Numpad * (ANSI) ; Arrow * ; Escape ; Tab ; Space ; Backspace ; Enter ; Insert ; Suppr ; Home ; End ; Page *</string>
+			<key>A</key>
+			<string>12</string>
+			<key>Q</key>
+			<string>0</string>
+			<key>Z</key>
+			<string>13</string>
+			<key>F</key>
+			<string>3</string>
+			<key>D</key>
+			<string>2</string>
+			<key>R</key>
+			<string>15</string>
+			<key>M</key>
+			<string>41</string>
+			<key>J</key>
+			<string>38</string>
+			<key>K</key>
+			<string>40</string>
+			<key>S</key>
+			<string>1</string>
+			<key>I</key>
+			<string>34</string>
+			<key>U</key>
+			<string>32</string>
+			<key>L</key>
+			<string>37</string>
+			<key>X</key>
+			<string>7</string>
+			<key>C</key>
+			<string>8</string>
+			<key>V</key>
+			<string>9</string>
+			<key>T</key>
+			<string>17</string>
+			<key>G</key>
+			<string>5</string>
+			<key>P</key>
+			<string>35</string>
+			<key>&apos;</key>
+			<string>21</string>
+		</dict>
+		<key>Remote</key>
+		<dict>
+			<key>mute</key>
+			<string>20</string>
+			<key>standby</key>
+			<string>44</string>
+			<key>Numpad 1</key>
+			<string>0</string>
+			<key>Numpad 2</key>
+			<string>1</string>
+			<key>Numpad 3</key>
+			<string>2</string>
+			<key>Numpad 4</key>
+			<string>3</string>
+			<key>Numpad 5</key>
+			<string>4</string>
+			<key>Numpad 6</key>
+			<string>5</string>
+			<key>Numpad 7</key>
+			<string>6</string>
+			<key>Numpad 8</key>
+			<string>7</string>
+			<key>Numpad 9</key>
+			<string>8</string>
+			<key>jump</key>
+			<string>61</string>
+			<key>Numpad 0</key>
+			<string>62</string>
+			<key>ent</key>
+			<string>63</string>
+			<key>menu</key>
+			<string>67</string>
+			<key>start</key>
+			<string>68</string>
+			<key>close</key>
+			<string>69</string>
+			<key>function</key>
+			<string>39</string>
+			<key>size</key>
+			<string>37</string>
+			<key>audio</key>
+			<string>43</string>
+			<key>channel +</key>
+			<string>16</string>
+			<key>channel -</key>
+			<string>17</string>
+			<key>volume +</key>
+			<string>18</string>
+			<key>volume -</key>
+			<string>19</string>
+			<key>angle</key>
+			<string>57</string>
+			<key>subtitle</key>
+			<string>41</string>
+			<key>display</key>
+			<string>38</string>
+			<key>tv/video</key>
+			<string>36</string>
+			<key>rec</key>
+			<string>29</string>
+			<key>rec mode</key>
+			<string>40</string>
+			<key>rec stop</key>
+			<string>30</string>
+			<key>stop</key>
+			<string>24</string>
+			<key>pause</key>
+			<string>25</string>
+			<key>play</key>
+			<string>26</string>
+			<key>rewind</key>
+			<string>27</string>
+			<key>fast forward</key>
+			<string>28</string>
+			<key>previous</key>
+			<string>31</string>
+			<key>next</key>
+			<string>32</string>
+			<key>Arrow Up</key>
+			<string>48</string>
+			<key>Arrow Down</key>
+			<string>49</string>
+			<key>Arrow Left</key>
+			<string>50</string>
+			<key>Arrow Right</key>
+			<string>51</string>
+			<key>Enter</key>
+			<string>52</string>
+			<key>cancel</key>
+			<string>53</string>
+			<key>menu_2</key>
+			<string>54</string>
+			<key>return</key>
+			<string>55</string>
+			<key>title</key>
+			<string>56</string>
+		</dict>
+	</dict>
+	<key>Mapping</key>
+	<dict>
+		<key>Input Mode</key>
+		<dict>
+			<key>Application Switch</key>
+			<dict>
+				<key>Arrow Right</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>Arrow Left</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>close</key>
+				<dict>
+					<key>Comment</key>
+					<string>Caution : we need to send the ANSI Q keycode equivalent in other keyboard</string>
+					<key>Action</key>
+					<string>A</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>Mode 1</key>
+		<dict/>
+		<key>Mode 2</key>
+		<dict>
+			<key>start</key>
+			<dict>
+				<key>Code</key>
+				<string>68</string>
+				<key>Action</key>
+				<string>open -a XBMC</string>
+				<key>Type</key>
+				<string>Shell</string>
+			</dict>
+			<key>channel +</key>
+			<dict>
+				<key>Code</key>
+				<integer>16</integer>
+				<key>Action</key>
+				<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then keystroke &quot;j&quot;</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+			<key>channel -</key>
+			<dict>
+				<key>Code</key>
+				<integer>17</integer>
+				<key>Action</key>
+				<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then keystroke &quot;h&quot;</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+			<key>mute</key>
+			<dict>
+				<key>Code</key>
+				<integer>20</integer>
+				<key>Action</key>
+				<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then tell application &quot;VLC&quot; to mute</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+			<key>volume +</key>
+			<dict>
+				<key>Code</key>
+				<integer>18</integer>
+				<key>Action</key>
+				<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then tell application &quot;VLC&quot; to volumeUp</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+			<key>volume -</key>
+			<dict>
+				<key>Code</key>
+				<integer>19</integer>
+				<key>Action</key>
+				<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then tell application &quot;VLC&quot; to volumeDown</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+		</dict>
+		<key>Mode 3</key>
+		<dict>
+			<key>display</key>
+			<dict>
+				<key>Action</key>
+				<string>Launchpad</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>tv/video</key>
+			<dict>
+				<key>Action</key>
+				<string>Dashboard</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>size</key>
+			<dict>
+				<key>Action</key>
+				<string>Mission Control</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>close</key>
+			<dict>
+				<key>Action</key>
+				<string>A</string>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>menu</key>
+			<dict>
+				<key>Action</key>
+				<string>F2</string>
+				<key>Modifiers</key>
+				<string>Ctrl</string>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>menu_2</key>
+			<dict>
+				<key>Action</key>
+				<string>Tab</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>start</key>
+			<dict>
+				<key>Action</key>
+				<string>F3</string>
+				<key>Modifiers</key>
+				<string>Ctrl</string>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+		</dict>
+		<key>Default</key>
+		<dict>
+			<key>mute</key>
+			<dict>
+				<key>Legacy</key>
+				<dict>
+					<key>Code</key>
+					<integer>20</integer>
+					<key>Action</key>
+					<string>set volume output muted (not output muted of (get volume settings))</string>
+					<key>Type</key>
+					<string>Applescript</string>
+				</dict>
+				<key>Action</key>
+				<string>Volume Mute</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>volume -</key>
+			<dict>
+				<key>Legacy</key>
+				<dict>
+					<key>Action</key>
+					<string>if (output volume of (get volume settings)) is greater than 10 then set volume output volume ((output volume of (get volume settings)) - 10)</string>
+					<key>Type</key>
+					<string>Applescript</string>
+				</dict>
+				<key>Action</key>
+				<string>Volume Down</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>volume +</key>
+			<dict>
+				<key>Legacy</key>
+				<dict>
+					<key>Action</key>
+					<string>if (output volume of (get volume settings)) is less than 100 then set volume output volume ((output volume of (get volume settings)) + 10)</string>
+					<key>Type</key>
+					<string>Applescript</string>
+				</dict>
+				<key>Action</key>
+				<string>Volume Up</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>jump</key>
+			<dict>
+				<key>Action</key>
+				<string>Tab</string>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>next</key>
+			<dict>
+				<key>Legacy</key>
+				<dict>
+					<key>Action</key>
+					<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then tell application &quot;VLC&quot; to step forward 4</string>
+					<key>Type</key>
+					<string>Applescript</string>
+				</dict>
+				<key>Action</key>
+				<string>Media Next</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>previous</key>
+			<dict>
+				<key>Legacy</key>
+				<dict>
+					<key>Action</key>
+					<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then tell application &quot;VLC&quot; to step backward 4</string>
+					<key>Type</key>
+					<string>Applescript</string>
+				</dict>
+				<key>Action</key>
+				<string>Media Prev</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>channel -</key>
+			<dict>
+				<key>Action</key>
+				<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then tell application &quot;VLC&quot; to previous</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+			<key>channel +</key>
+			<dict>
+				<key>Action</key>
+				<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then tell application &quot;VLC&quot; to next</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+			<key>size</key>
+			<dict>
+				<key>Action</key>
+				<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then tell application &quot;VLC&quot; to fullscreen</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+			<key>Numpad 0</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Numpad 1</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Numpad 2</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Numpad 3</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Numpad 4</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Numpad 5</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Numpad 6</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Numpad 7</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Numpad 8</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Numpad 9</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>close</key>
+			<dict>
+				<key>Action</key>
+				<string>tell application &quot;System Events&quot; to if (name of processes) contains &quot;VLC&quot; then tell application &quot;VLC&quot; to quit</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+			<key>start</key>
+			<dict>
+				<key>Action</key>
+				<string>open -a VLC</string>
+				<key>Type</key>
+				<string>Shell</string>
+			</dict>
+			<key>Enter</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Arrow Right</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Arrow Left</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Arrow Down</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>Arrow Up</key>
+			<dict>
+				<key>Type</key>
+				<string>Key</string>
+			</dict>
+			<key>stop</key>
+			<dict>
+				<key>Action</key>
+				<string>tell application &quot;VLC&quot; to stop</string>
+				<key>Type</key>
+				<string>Applescript</string>
+			</dict>
+			<key>pause</key>
+			<dict>
+				<key>Legacy</key>
+				<dict>
+					<key>Action</key>
+					<string>tell application &quot;VLC&quot; to play</string>
+					<key>Type</key>
+					<string>Applescript</string>
+				</dict>
+				<key>Action</key>
+				<string>Media Play</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>play</key>
+			<dict>
+				<key>Legacy</key>
+				<dict>
+					<key>Action</key>
+					<string>tell application &quot;VLC&quot; to play</string>
+					<key>Type</key>
+					<string>Applescript</string>
+				</dict>
+				<key>Action</key>
+				<string>Media Play</string>
+				<key>Type</key>
+				<string>Function</string>
+			</dict>
+			<key>standby</key>
+			<dict>
+				<key>Type</key>
+				<string>Action</string>
+				<key>Action</key>
+				<string>System Standby</string>
+			</dict>
+		</dict>
+		<key>Per App</key>
+		<dict>
+			<key>XBMC</key>
+			<dict>
+				<key>rec stop</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>A</string>
+				</dict>
+				<key>previous</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>J</string>
+				</dict>
+				<key>next</key>
+				<dict>
+					<key>Action</key>
+					<string>K</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>rec mode</key>
+				<dict>
+					<key>Code</key>
+					<integer>40</integer>
+					<key>Type</key>
+					<string>Applescript</string>
+					<key>Action</key>
+					<string>tell application &quot;System Events&quot; to key code 126 using {control down}</string>
+				</dict>
+				<key>rec</key>
+				<dict>
+					<key>Code</key>
+					<integer>29</integer>
+					<key>Type</key>
+					<string>Applescript</string>
+					<key>Action</key>
+					<string>tell application &quot;System Events&quot; to key code 125 using {control down}</string>
+				</dict>
+				<key>angle</key>
+				<dict>
+					<key>Code</key>
+					<integer>57</integer>
+					<key>Type</key>
+					<string>Applescript</string>
+					<key>Action</key>
+					<string>tell application &quot;System Events&quot; to keystroke &quot;t&quot; using {control down}</string>
+				</dict>
+				<key>rewind</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>R</string>
+				</dict>
+				<key>fast forward</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>F</string>
+				</dict>
+				<key>jump</key>
+				<dict>
+					<key>Action</key>
+					<string>&apos;</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>size</key>
+				<dict>
+					<key>Action</key>
+					<string>Z</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>tv/video</key>
+				<dict>
+					<key>Action</key>
+					<string>M</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>channel -</key>
+				<dict>
+					<key>Action</key>
+					<string>Numpad -</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>channel +</key>
+				<dict>
+					<key>Action</key>
+					<string>Numpad +</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>function</key>
+				<dict>
+					<key>Action</key>
+					<string>C</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>standby</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>S</string>
+				</dict>
+				<key>audio</key>
+				<dict>
+					<key>Action</key>
+					<string>G</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>subtitle</key>
+				<dict>
+					<key>Action</key>
+					<string>L</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>menu_2</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>Tab</string>
+				</dict>
+				<key>stop</key>
+				<dict>
+					<key>Action</key>
+					<string>X</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>display</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>T</string>
+				</dict>
+				<key>pause</key>
+				<dict>
+					<key>Action</key>
+					<string>P</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>play</key>
+				<dict>
+					<key>Action</key>
+					<string>P</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>title</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>I</string>
+				</dict>
+				<key>return</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>Backspace</string>
+				</dict>
+				<key>cancel</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>Escape</string>
+				</dict>
+			</dict>
+			<key>VLC</key>
+			<dict>
+				<key>jump</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>Z</string>
+					<key>Modifiers</key>
+					<string>Cmd</string>
+				</dict>
+				<key>ent</key>
+				<dict>
+					<key>Type</key>
+					<string>Key</string>
+					<key>Action</key>
+					<string>L</string>
+					<key>Modifiers</key>
+					<string>Cmd</string>
+				</dict>
+				<key>fast forward</key>
+				<dict>
+					<key>Type</key>
+					<string>Applescript</string>
+					<key>Action</key>
+					<string>tell application &quot;VLC&quot; to step forward 3</string>
+				</dict>
+				<key>rewind</key>
+				<dict>
+					<key>Type</key>
+					<string>Applescript</string>
+					<key>Action</key>
+					<string>tell application &quot;VLC&quot; to step backward 3</string>
+				</dict>
+				<key>Arrow Right</key>
+				<dict>
+					<key>Type</key>
+					<string>Applescript</string>
+					<key>Action</key>
+					<string>tell application &quot;VLC&quot; to step forward 2</string>
+				</dict>
+				<key>Arrow Left</key>
+				<dict>
+					<key>Type</key>
+					<string>Applescript</string>
+					<key>Action</key>
+					<string>tell application &quot;VLC&quot; to step backward 2</string>
+				</dict>
+				<key>size</key>
+				<dict>
+					<key>Action</key>
+					<string>tell application &quot;VLC&quot; to fullscreen</string>
+					<key>Type</key>
+					<string>Applescript</string>
+				</dict>
+				<key>audio</key>
+				<dict>
+					<key>Action</key>
+					<string>L</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+				<key>subtitle</key>
+				<dict>
+					<key>Action</key>
+					<string>V</string>
+					<key>Type</key>
+					<string>Key</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
